@@ -8,6 +8,7 @@ const Meeting = sequelize.define('Meeting',{
         type : DataTypes.INTEGER,
         allowNull:false,
         autoIncrement:true,
+        primaryKey : true
     },
     date : {
         type :DataTypes.DATE,

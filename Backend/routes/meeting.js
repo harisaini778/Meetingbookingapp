@@ -4,6 +4,8 @@ const express = require("express");
 
 const Meeting = require("../models/Meeting");
 
+const router = express.Router();
+
 //Get Request 
 
 router.get('/meetings', async(req,res)=>{

@@ -32,7 +32,7 @@ app.use(express.urlencoded({extended:false}));
 
 // using routes 
 
-app.use('/api',meetingRoutes);
+app.use('/',meetingRoutes);
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT,()=>{
